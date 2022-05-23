@@ -1,0 +1,33 @@
+* {
+  outline: none !important;  
+}
+
+.app {
+  background-color: transparent;
+  text-align: center;
+  display: flex;
+}
+
+.input-section{
+  flex: .5;
+  height: 100vh;
+  overflow: auto;
+  border-right: dashed #3a3a3a75;
+  padding-right: 1rem;
+}
+
+.input-section::-webkit-scrollbar{
+  display: none;
+}
+
+.input-section * {
+    font-size: 1rem !important;
+}
+
+.result-section{
+  max-width: 50%;
+  flex: .5;
+  padding: 0 1rem;
+}
+
+
